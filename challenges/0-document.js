@@ -2,8 +2,8 @@
 
 /**
  * Convert an integer to the negative equivalent (if not already negative)
- * @param {integer} n - input number
- * @returns {integer} negative form of `n`, or `n` if already negative
+ * @param {number} n - input number
+ * @returns {number} negative form of `n`, or `n` if already negative
  */
 function asNegative(n) {
   if (n > 0) { //if (n >= 0) { - illustrates -0
